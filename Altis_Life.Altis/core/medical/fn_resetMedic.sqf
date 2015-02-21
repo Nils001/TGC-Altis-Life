@@ -21,7 +21,7 @@ if((__GETC__(life_medicLevel)) == 1) exitWith {
 	player forceAddUniform "U_O_OfficerUniform_ocamo";
 	player setObjectTextureGlobal [0,"skins\human\medic\medic_uniform.jpg"];
 	player addBackpackGlobal "B_Kitbag_sgg";
-	hint "Du bist in Dienst Gegangen";
+	hint "Du bist in den Dienst gegangen";
 	[] call life_fnc_medicLoadout;
 };
 
@@ -31,6 +31,6 @@ if((__GETC__(life_medicLevel)) == 2) exitWith {
 	player setObjectTextureGlobal [0,"skins\human\medic\adac_uniform.jpg"];
 	player addHeadgear "H_Cap_marshal";
 	player addBackpackGlobal "B_Kitbag_cbr";
-	hint "Du bist in Dienst Gegangen";
+	hint "Du bist in den Dienst gegangen";
 	[] call life_fnc_medicLoadout;
 };

@@ -46,11 +46,11 @@ while {true} do
 		_countDown = if(round (_time - time) > 60) then {format["%1 minute(s)",round(round(_time - time) / 60)]} else {format["%1 second(s)",round(_time - time)]};
 		if(isNil "life_canpay_bail") then
 		{
-			hintSilent format["Time Remaining:\n %1\n\nCan pay Bail: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];
+			hintSilent format["Zeit verbleibend:\n %1\n\nKaution ist möglich: %3\nBail Amount: $%2",_countDown,[life_bail_amount] call life_fnc_numberText];
 		}
 		else
 		{
-			hintSilent format["Time Remaining:\n %1\n",_countDown];
+			hintSilent format["Zeit verbleibend:\n %1\n",_countDown];
 		};
 		
 	};

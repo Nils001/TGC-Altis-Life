@@ -18,8 +18,8 @@ player setVariable["restrained",false,true];
 player setVariable["Escorting",false,true];
 player setVariable["transporting",false,true];
 
-titleText["You have been arrested, wait your time out. If you attempt to respawn or reconnect your time will increase!","PLAIN"];
-hint "For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License";
+titleText["Du wurdest verhaftet, warte bis die Zeit abläuft. Wenn du versuchst zu respawnen oder zu reconnecten wird deine Strafe verlängert!","PLAIN"];
+hint "Weil du verhaftet worden bist wurden die folgende Lizensen entzogen, falls du sie hattest\n\nWaffen Lizens\nRebellen Lizens";
 player setPos (getMarkerPos "jail_marker");
 
 if(_bad) then

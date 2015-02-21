@@ -65,8 +65,8 @@ switch (_filter) do
 	{
 		_ret =
 		[
-			["B_Kitbag_sgg","MEDIC-Backpack",250],
-			["B_Kitbag_cbr","ADAC-Backpack",250]
+			["B_Kitbag_sgg","MEDIC-Rucksack",250],
+			["B_Kitbag_cbr","ADAC-Rucksack",250]
 		];
 	};
 };
