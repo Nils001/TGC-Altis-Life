@@ -1,13 +1,13 @@
 <?xml version="1.0" standalone="yes"?>
 <DocumentElement>
   <SET>
-    <Left>175</Left>
-    <Top>175</Top>
-    <Width>408</Width>
-    <Height>304</Height>
-    <State>0</State>
+    <Left>-32000</Left>
+    <Top>-32000</Top>
+    <Width>160</Width>
+    <Height>27</Height>
+    <State>1</State>
     <Open>C:\Users\Nils\Documents\GitHub\TGC-Altis-Life\@life_server\addons</Open>
-    <Pack>C:\Users\Nils\Documents\GitHub\TGC-Altis-Life\Altis_Life.Altis</Pack>
+    <Pack>C:\Users\Nils\Documents\GitHub\TGC-Altis-Life\Vanilla 4.0\life_server</Pack>
     <ColumnN>135</ColumnN>
     <ColumnS>90</ColumnS>
     <ColumnD>129</ColumnD>
