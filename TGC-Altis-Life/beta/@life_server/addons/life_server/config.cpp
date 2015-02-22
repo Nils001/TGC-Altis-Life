@@ -32,6 +32,13 @@ class CfgFunctions
 			class missionTimeLeft{};
 		};
 	};
+	class Jail_Sys
+{
+	file = "\life_server\Functions\Jail";
+	class jailSys {};
+	class jailTimer {};
+	class jailPlayer {};
+	};
 	
 	class MySQL_Database
 	{
