@@ -7,7 +7,7 @@
 */
 private["_item"];
 disableSerialization;
-if((lbCurSel 2005) == -1) exitWith {hint "You need to select an item first!";};
+if((lbCurSel 2005) == -1) exitWith {hint "Du musst zuerst einen Gegenstand auswählen!";};
 _item = lbData[2005,(lbCurSel 2005)];
 
 switch (true) do
@@ -109,7 +109,7 @@ switch (true) do
 	
 	case (_item == "mauer"):
 	{
-		if(!isNull life_mauer) exitWith {hint "Du stellst schon eine Mauer!"};
+		if(!isNull life_mauer) exitWith {hint "Du baust schon eine Mauer!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_mauer;
@@ -179,7 +179,7 @@ switch (true) do
 	
 	case (_item == "methp"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Keine Drogen im Dienst !"};
+		if(playerSide in [west,independent]) exitWith {hint "Keine Drogen im Dienst!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_useMarihuana;
@@ -188,7 +188,7 @@ switch (true) do
 	
 	case (_item == "heroinp"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Keine Drogen im Dienst !"};
+		if(playerSide in [west,independent]) exitWith {hint "Keine Drogen im Dienst!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_useHeroin;
@@ -197,7 +197,7 @@ switch (true) do
 	
 	case (_item == "cocainep"):
 	{
-		if(playerSide in [west,independent]) exitWith {hint "Keine Drogen im Dienst !"};
+		if(playerSide in [west,independent]) exitWith {hint "Keine Drogen im Dienst!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_useKokain;

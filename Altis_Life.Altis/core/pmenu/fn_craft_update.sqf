@@ -33,7 +33,7 @@ _config = ["weapon"] call life_fnc_craftCfg;
 
 if(_struct == "") then
 {
-	_struct = "No material needed";
+	_struct = "Es wird kein Material benötigt";
 };
 
 _mats ctrlSetStructuredText parseText format["<t size='0.8px'>%1</t>",_struct];
